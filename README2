@@ -1,0 +1,34 @@
+# AI Lab Manual Assistant
+
+## Project Description
+AI Lab Manual Assistant is an AI-based tool that helps students quickly find answers from their lab manuals. The system reads a PDF lab manual and allows users to ask questions. It retrieves relevant content from the document and generates answers using the Gemini AI model.
+
+## Features
+- Upload lab manual PDF
+- Ask questions related to the manual
+- AI retrieves relevant information
+- Uses LangChain for document processing
+- Uses FAISS vector database for fast retrieval
+- Works in Google Colab
+
+## Technologies Used
+- Python
+- Google Colab
+- LangChain
+- FAISS
+- Gemini API
+- PyPDF
+
+## How to Run the Project
+1. Open the Google Colab notebook.
+2. Install required libraries.
+3. Add your Gemini API key.
+4. Upload the lab manual PDF.
+5. Run all cells.
+6. Ask questions related to the manual.
+
+## Future Improvements
+- Support multiple lab manuals
+- Add web interface using Streamlit
+- Improve answer accuracy
+- Deploy the project online
