@@ -1,0 +1,42 @@
+# AI Lab Manual Assistant – Week 4
+
+## Internship
+Saksham Agentic AI Internship
+
+## Project Description
+In Week 4, we improved the AI Lab Manual Assistant by implementing a retrieval-based question answering system. The system reads lab manual PDFs, converts the content into embeddings, and retrieves the most relevant information to answer user questions.
+
+## Work Done This Week
+- Implemented a Retrieval-Augmented Generation (RAG) approach
+- Extracted text from uploaded lab manual PDFs
+- Split the text into smaller chunks for processing
+- Generated embeddings using Gemini API
+- Stored embeddings in a FAISS vector database
+- Retrieved relevant content to answer user questions
+- Added support for multiple PDF uploads
+
+## Technologies Used
+- Python
+- Google Generative AI (Gemini)
+- FAISS
+- PyPDF
+- Google Colab
+
+## How the System Works
+1. User uploads one or more lab manual PDFs.
+2. The system extracts text from the PDFs.
+3. The text is split into smaller chunks.
+4. Embeddings are generated for each chunk.
+5. FAISS stores the embeddings for similarity search.
+6. When a user asks a question, the system retrieves the most relevant chunks.
+7. Gemini generates an answer using the retrieved context.
+
+## Example Questions
+- What is the aim of experiment 1?
+- Explain the procedure of experiment 2.
+- What formula is used in the experiment?
+
+## Future Improvements
+- Create a simple user interface
+- Improve answer accuracy
+- Deploy the assistant online
